@@ -14,7 +14,7 @@ const About = () => {
                 >
                     <div className="flex items-center gap-4 mb-8">
                         <h2 className="text-3xl font-bold text-white"><span className="text-[var(--color-accent)]">01.</span> About Me</h2>
-                        <div className="h-[1px] bg-gray-700 flex-grow max-w-xs"></div>
+
                     </div>
 
                     <div className="text-gray-400 text-lg leading-relaxed space-y-4">

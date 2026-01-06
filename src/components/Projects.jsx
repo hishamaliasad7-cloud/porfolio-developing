@@ -39,7 +39,7 @@ const Projects = () => {
                 >
                     <div className="flex items-center gap-4 mb-12">
                         <h2 className="text-3xl font-bold text-white"><span className="text-[var(--color-accent)]">03.</span> Projects</h2>
-                        <div className="h-[1px] bg-gray-700 flex-grow max-w-xs"></div>
+
                     </div>
 
                     <motion.div
