@@ -5,7 +5,7 @@ import { Mail, ArrowRight } from 'lucide-react';
 
 const Contact = () => {
     return (
-        <section id="contact" className="py-24 px-6 bg-[#0a0e14] relative overflow-hidden">
+        <section id="contact" className="py-24 px-6 relative overflow-hidden">
             {/* Background Grid Pattern */}
             <div className="absolute inset-0 opacity-[0.03] bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
 
