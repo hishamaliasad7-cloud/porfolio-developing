@@ -90,9 +90,9 @@ const Skills = () => {
                                         variants={itemVariants}
                                         className="flex flex-col items-center gap-2 group relative cursor-pointer"
                                     >
-                                        <div className="p-2 transition-all group-hover:-translate-y-1">
+                                        <div className="bg-[#111827] border border-gray-800 p-4 rounded-xl transition-all group-hover:border-[var(--color-accent)] group-hover:shadow-[0_0_15px_rgba(255,185,0,0.1)] group-hover:-translate-y-1">
                                             <skill.icon
-                                                size={64}
+                                                size={32}
                                                 style={{ color: skill.color }}
                                                 className="filter drop-shadow-lg transition-transform"
                                             />
