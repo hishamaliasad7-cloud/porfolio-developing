@@ -19,10 +19,13 @@ const About = () => {
 
                     <div className="text-gray-400 text-lg leading-relaxed space-y-4">
                         <p>
-                            Hello! My name is Hisham and I enjoy creating things that live on the internet. My interest in web development started back in 2023 when I decided to try editing custom Tumblr themes — turns out hacking together HTML & CSS was fun!
+                            Hi, I’m Hisham, a Computer Science Engineering student and aspiring full-stack developer passionate about building clean, responsive, and user-friendly web applications.
                         </p>
                         <p>
-                            Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+                            I started my web development journey in 2023, exploring HTML and CSS, and gradually moved into modern JavaScript frameworks and backend development. Since then, I’ve worked on academic and personal projects that strengthened my understanding of frontend design, API integration, and performance optimization.
+                        </p>
+                        <p>
+                            I enjoy turning ideas into practical digital solutions while focusing on usability, accessibility, and clean code. I’m actively improving my skills in modern web technologies and looking forward to contributing to real-world projects in a collaborative development environment.
                         </p>
                         <p>
                             Here are a few technologies I've been working with recently:

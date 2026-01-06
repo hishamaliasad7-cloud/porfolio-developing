@@ -83,20 +83,23 @@ const Skills = () => {
                         >
                             <h3 className="text-gray-500 font-bold tracking-widest text-xs uppercase">{category.title}</h3>
 
-                            <div className="grid grid-cols-2 gap-3">
+                            <div className="grid grid-cols-4 gap-4 justify-items-center">
                                 {category.skills.map((skill, index) => (
                                     <motion.div
                                         key={index}
                                         variants={itemVariants}
-                                        whileHover={{ y: -5, borderColor: 'var(--color-accent)' }}
-                                        className="bg-[#111827] border border-gray-800 p-4 rounded-lg flex flex-col items-center gap-3 transition-all group"
+                                        className="flex flex-col items-center gap-2 group relative cursor-pointer"
                                     >
-                                        <skill.icon
-                                            size={32}
-                                            style={{ color: skill.color }}
-                                            className="filter drop-shadow-lg group-hover:scale-110 transition-transform"
-                                        />
-                                        <span className="text-gray-300 font-medium text-sm">{skill.name}</span>
+                                        <div className="p-2 transition-all group-hover:-translate-y-1">
+                                            <skill.icon
+                                                size={64}
+                                                style={{ color: skill.color }}
+                                                className="filter drop-shadow-lg transition-transform"
+                                            />
+                                        </div>
+                                        <span className="absolute -bottom-8 text-gray-300 font-medium text-sm opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                                            {skill.name}
+                                        </span>
                                     </motion.div>
                                 ))}
                             </div>
