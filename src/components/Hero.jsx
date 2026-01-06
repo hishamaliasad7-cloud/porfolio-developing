@@ -89,12 +89,12 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.2 }}
                     className="relative flex justify-center"
                 >
-                    <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-2 border-[var(--color-accent)] p-2">
+                    <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full border-2 border-[var(--color-accent)] p-3">
                         <div className="w-full h-full rounded-full bg-gray-800 overflow-hidden relative group">
                             <img
                                 src="/profile.jpg"
                                 alt="Hisham Ali Asad"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-cover object-top"
                             />
                         </div>
                     </div>
